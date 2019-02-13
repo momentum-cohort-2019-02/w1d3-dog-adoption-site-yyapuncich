@@ -5,5 +5,10 @@
 }
 
 .dog-form {
-  background-color: gray;
+  background-color: #ECECEC;
+}
+
+.dog-photo {
+  width: 300px;
+  padding: 2rem;
 }
