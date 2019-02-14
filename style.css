@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,6 +10,10 @@
   color: #FFFFFF;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.main-content {
+  margin: 1rem;
 }
 
 .intro {
@@ -32,16 +36,44 @@
 
 .form-questions {
   display: flex;
-  justify-content: space-around;
+}
+
+.quality {
+  justify-content: flex-start;
+  padding-right: 3rem;
 }
 
 .dog-directory {
+  margin: 1rem;
+  justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
 }
 
+.dog-name {
+  font-family: 'Oswald';
+}
+.dog-info {
+  justify-content: space-evenly;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
 .dog-photo {
   width: 300px;
-  padding: 1rem;
-  margin: 1rem
+  /* padding: 1rem; */
+}
+
+.quality-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  list-style-type: none;
+}
+
+.trait {
+  background-color: #91DDEF;
+  margin: .25rem;
+  padding: .25rem ;
+  border-radius: .75rem;
 }
