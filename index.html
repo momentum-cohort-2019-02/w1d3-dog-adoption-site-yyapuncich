@@ -8,71 +8,74 @@
 
 <body>
 
-  <header>
-    <h1>Happy Valley Shelter</h1>
-  </header>
+  <main>
+    <header class="top-header">
+      <h1>Happy Valley Shelter</h1>
+    </header>
 
-  <h2>Adopt a Dog</h2>
-  <p>If you are interested in adopting one of our animals, please fill out our <a href="https://www.instagram.com/p/-1-nDqlccA/?utm_source=ig_embed">online
-      application form</a>.</p>
+    <section class="intro">
+      <h2 class="adopt-header">Adopt a Dog</h2>
+      <p>If you are interested in adopting one of our animals, please fill out our <a href="https://www.instagram.com/p/-1-nDqlccA/?utm_source=ig_embed">online
+          application form</a>.</p>
+    </section>
 
-  <section class="dog-form">   
-  <h3>Show me dogs that are</h3>
+    <section class="dog-form">
+      <h3 class="form-header">Show me dogs that are</h3>
 
-  <section class="form-questions">
-    <form class="quality gender">
-      <h4>Gender</h4>
-      <input type="radio" name="gender" value="male">Male<br>
-      <input type="radio" name="gender" value="female">Female<br>
-      <input type="radio" name="gender" value="all">All<br>
-    </form>
+      <section class="form-questions">
+        <form class="quality gender">
+          <h4>Gender</h4>
+          <input type="radio" name="gender" value="male">Male<br>
+          <input type="radio" name="gender" value="female">Female<br>
+          <input type="radio" name="gender" value="all">All<br>
+        </form>
 
-    <form class="quality age">
-      <h4>Age</h4>
-      <input type="radio" name="age" value="puppy">Puppy<br>
-      <input type="radio" name="age" value="young">Young<br>
-      <input type="radio" name="age" value="adult">Adult<br>
-      <input type="radio" name="age" value="senior">Senior<br>
-      <input type="radio" name="age" value="all">All<br>
-    </form>
+        <form class="quality age">
+          <h4>Age</h4>
+          <input type="radio" name="age" value="puppy">Puppy<br>
+          <input type="radio" name="age" value="young">Young<br>
+          <input type="radio" name="age" value="adult">Adult<br>
+          <input type="radio" name="age" value="senior">Senior<br>
+          <input type="radio" name="age" value="all">All<br>
+        </form>
 
-    <form class="quality size">
-      <h4>Size</h4>
-      <input type="checkbox" name="size[]" value="tiny">Tiny<br>
-      <input type="checkbox" name="size[]" value="small">Small<br>
-      <input type="checkbox" name="size[]" value="medium">Medium<br>
-      <input type="checkbox" name="size[]" value="large">Large<br>
-    </form>
+        <form class="quality size">
+          <h4>Size</h4>
+          <input type="checkbox" name="size[]" value="tiny">Tiny<br>
+          <input type="checkbox" name="size[]" value="small">Small<br>
+          <input type="checkbox" name="size[]" value="medium">Medium<br>
+          <input type="checkbox" name="size[]" value="large">Large<br>
+        </form>
 
-    <form class="quality size">
-      <h4>Personality Traits</h4>
-      <input type="checkbox" name="traits[]" value="easygoing">Easygoing<br>
-      <input type="checkbox" name="traits[]" value="energetic">Energetic<br>
-      <input type="checkbox" name="traits[]" value="good_with_kids">Good with kids<br>
-      <input type="checkbox" name="traits[]" value="good_with_other_dogs">Good with other dogs<br>
-      <input type="checkbox" name="traits[]" value="good_with_cats">Good with cats<br>
-    </form>
-  </section>
-</section> 
+        <form class="quality size">
+          <h4>Personality Traits</h4>
+          <input type="checkbox" name="traits[]" value="easygoing">Easygoing<br>
+          <input type="checkbox" name="traits[]" value="energetic">Energetic<br>
+          <input type="checkbox" name="traits[]" value="good_with_kids">Good with kids<br>
+          <input type="checkbox" name="traits[]" value="good_with_other_dogs">Good with other dogs<br>
+          <input type="checkbox" name="traits[]" value="good_with_cats">Good with cats<br>
+        </form>
+      </section>
+    </section>
 
-  <section class="dog-directory">
-    <!-- <ul> -->
-      <div class="dog-info">
+    <section class="dog-directory">
+      <!-- <ul> -->
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/beans.jpg">
         <h4 class="dog-name">Beans</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="adult">Adult</li>
           <li class="trait" value="male">Male</li>
           <li class="trait" value="medium">Medium</li>
           <li class="trait" value="easygoing">Easygoing</li>
           <li class="trait" value="good_with_cats">Good with cats</li>
         </ul>
-      </div>
+      </span>
 
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/boston-terrier.jpg">
         <h4 class="dog-name">Zelda</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="senior">Senior</li>
           <li class="trait" value="female">Female</li>
           <li class="trait" value="small">Small</li>
@@ -80,12 +83,12 @@
           <li class="trait" value="good_with_kids">Good with kids</li>
           <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
         </ul>
-      </li>
+      </span>
 
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/boxer.jpg">
         <h4 class="dog-name">Baby</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="young">Young</li>
           <li class="trait" value="female">Female</li>
           <li class="trait" value="large">Large</li>
@@ -93,13 +96,12 @@
           <li class="trait" value="good_with_kids">Good with kids</li>
           <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/golden-lab.jpg">
         <h4 class="dog-name">Tom-Tom</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="young">Young</li>
           <li class="trait" value="male">Male</li>
           <li class="trait" value="large">Large</li>
@@ -108,25 +110,23 @@
           <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
           <li class="trait" value="good_with_cats">Good with cats</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/little-dog.jpg">
         <h4 class="dog-name">Marco</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="adult">Adult</li>
           <li class="trait" value="male">Male</li>
           <li class="trait" value="small">Small</li>
           <li class="trait" value="energetic">Energetic</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/old-shaggy.jpg">
         <h4 class="dog-name">Shackleton</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="adult">Adult</li>
           <li class="trait" value="male">Male</li>
           <li class="trait" value="medium">Medium</li>
@@ -136,26 +136,24 @@
           <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
           <li class="trait">Good with Cats</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/shih-tzu.jpg">
         <h4 class="dog-name">Midge</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="adult">Adult</li>
           <li class="trait" value="female">Female</li>
           <li class="trait" value="small">Small</li>
           <li class="trait" value="easygoing">Easygoing</li>
           <li class="trait" value="good_with_kids">Good with kids</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/young-bulldog.jpg">
         <h4 class="dog-name">Ladybird</h4>
-        <ul>
+        <ul class="quality-list">
           <li class="trait" value="young">Young</li>
           <li class="trait" value="female">Female</li>
           <li class="trait" value="large">Large</li>
@@ -165,24 +163,23 @@
           <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
           <li class="trait" value="good_with_cats">Good with cats</li>
         </ul>
-      </li>
+      </span>
 
-
-      <li class="dog-info">
+      <span class="dog-info">
         <img class="dog-photo" src="starter_files/images/young-peppy.jpg">
         <h4 class="dog-name">Mina</h4>
-        <ul>
-      <li class="trait" value="puppy">Puppy</li>
-      <li class="trait" value="female">Female</li>
-      <li class="trait" value="medium">Medium</li>
-      <li class="trait" value="energetic">Energetic</li>
-      <li class="trait" value="good_with_kids">Good with kids</li>
-      <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
-      <li class="trait" value="good_with_cats">Good with cats</li>
-    </ul>
-    </li>
-    <!-- </ul> -->
-
-  </section>
+        <ul class="quality-list">
+          <li class="trait" value="puppy">Puppy</li>
+          <li class="trait" value="female">Female</li>
+          <li class="trait" value="medium">Medium</li>
+          <li class="trait" value="energetic">Energetic</li>
+          <li class="trait" value="good_with_kids">Good with kids</li>
+          <li class="trait" value="good_with_other_dogs">Good with other dogs</li>
+          <li class="trait" value="good_with_cats">Good with cats</li>
+        </ul>
+      </span>
+      <!-- </ul> -->
+    </section>
+  </main>
 
 </body>

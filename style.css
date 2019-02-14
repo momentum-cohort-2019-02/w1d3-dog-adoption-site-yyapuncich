@@ -5,12 +5,34 @@
   padding: 0;
 }
 
+.top-header {
+  background-color: #083D77;
+  color: #FFFFFF;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  margin: 1rem;
+}
+
+.adopt-header {
+  padding-bottom: 1rem;
+}
+
 .dog-form {
+  margin: 1rem;
+  padding: 1rem;
   background-color: #ECECEC;
+}
+
+.form-header {
+  padding-bottom: 1rem;
 }
 
 .form-questions {
   display: flex;
+  justify-content: space-around;
 }
 
 .dog-directory {
@@ -20,6 +42,6 @@
 
 .dog-photo {
   width: 300px;
-  height: auto;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 1rem
 }
