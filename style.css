@@ -4,7 +4,8 @@
   margin: 0;
   padding: 0;
 }
-
+/* does a grey background need to be bheind entire page? */
+/*     */
 .top-header {
   background-color: #083D77;
   color: #FFFFFF;
@@ -59,9 +60,9 @@
   margin-bottom: 2rem;
 }
 
+/* how can I get my photos not to overlap?? I want them to wrap but it's not working*/
 .dog-photo {
-  width: 300px;
-  /* padding: 1rem; */
+  width: 350px;
 }
 
 .quality-list {
@@ -69,11 +70,12 @@
   flex-wrap: wrap;
   align-content: flex-start;
   list-style-type: none;
+  width: 350px;
 }
 
 .trait {
   background-color: #91DDEF;
-  margin: .25rem;
+  margin: .25rem .5rem;
   padding: .25rem ;
   border-radius: .75rem;
 }
